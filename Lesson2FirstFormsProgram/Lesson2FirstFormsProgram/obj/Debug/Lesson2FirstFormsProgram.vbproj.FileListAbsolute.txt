@@ -1,0 +1,11 @@
+U:\.NET\Lesson2FirstFormsProgram\Lesson2FirstFormsProgram\bin\Debug\Lesson2FirstFormsProgram.exe.config
+U:\.NET\Lesson2FirstFormsProgram\Lesson2FirstFormsProgram\bin\Debug\Lesson2FirstFormsProgram.exe
+U:\.NET\Lesson2FirstFormsProgram\Lesson2FirstFormsProgram\bin\Debug\Lesson2FirstFormsProgram.pdb
+U:\.NET\Lesson2FirstFormsProgram\Lesson2FirstFormsProgram\bin\Debug\Lesson2FirstFormsProgram.xml
+U:\.NET\Lesson2FirstFormsProgram\Lesson2FirstFormsProgram\obj\Debug\Lesson2FirstFormsProgram.vbprojAssemblyReference.cache
+U:\.NET\Lesson2FirstFormsProgram\Lesson2FirstFormsProgram\obj\Debug\Lesson2FirstFormsProgram.Resources.resources
+U:\.NET\Lesson2FirstFormsProgram\Lesson2FirstFormsProgram\obj\Debug\Lesson2FirstFormsProgram.vbproj.GenerateResource.cache
+U:\.NET\Lesson2FirstFormsProgram\Lesson2FirstFormsProgram\obj\Debug\Lesson2FirstFormsProgram.vbproj.CoreCompileInputs.cache
+U:\.NET\Lesson2FirstFormsProgram\Lesson2FirstFormsProgram\obj\Debug\Lesson2FirstFormsProgram.exe
+U:\.NET\Lesson2FirstFormsProgram\Lesson2FirstFormsProgram\obj\Debug\Lesson2FirstFormsProgram.xml
+U:\.NET\Lesson2FirstFormsProgram\Lesson2FirstFormsProgram\obj\Debug\Lesson2FirstFormsProgram.pdb
