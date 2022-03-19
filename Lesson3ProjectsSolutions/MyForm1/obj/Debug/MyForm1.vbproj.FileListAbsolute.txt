@@ -1,0 +1,11 @@
+C:\Users\ortizray\source\repos\Lesson3ProjectsSolutions\MyForm1\bin\Debug\MyForm1.exe.config
+C:\Users\ortizray\source\repos\Lesson3ProjectsSolutions\MyForm1\bin\Debug\MyForm1.exe
+C:\Users\ortizray\source\repos\Lesson3ProjectsSolutions\MyForm1\bin\Debug\MyForm1.pdb
+C:\Users\ortizray\source\repos\Lesson3ProjectsSolutions\MyForm1\bin\Debug\MyForm1.xml
+C:\Users\ortizray\source\repos\Lesson3ProjectsSolutions\MyForm1\obj\Debug\Project.Form1.resources
+C:\Users\ortizray\source\repos\Lesson3ProjectsSolutions\MyForm1\obj\Debug\Project.Resources.resources
+C:\Users\ortizray\source\repos\Lesson3ProjectsSolutions\MyForm1\obj\Debug\MyForm1.vbproj.GenerateResource.cache
+C:\Users\ortizray\source\repos\Lesson3ProjectsSolutions\MyForm1\obj\Debug\MyForm1.vbproj.CoreCompileInputs.cache
+C:\Users\ortizray\source\repos\Lesson3ProjectsSolutions\MyForm1\obj\Debug\MyForm1.exe
+C:\Users\ortizray\source\repos\Lesson3ProjectsSolutions\MyForm1\obj\Debug\MyForm1.xml
+C:\Users\ortizray\source\repos\Lesson3ProjectsSolutions\MyForm1\obj\Debug\MyForm1.pdb
