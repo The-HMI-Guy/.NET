@@ -1,0 +1,12 @@
+U:\.NET\Lesson8OneVariable\Trackbar\bin\Debug\Trackbar.exe.config
+U:\.NET\Lesson8OneVariable\Trackbar\bin\Debug\Trackbar.exe
+U:\.NET\Lesson8OneVariable\Trackbar\bin\Debug\Trackbar.pdb
+U:\.NET\Lesson8OneVariable\Trackbar\bin\Debug\Trackbar.xml
+U:\.NET\Lesson8OneVariable\Trackbar\obj\Debug\Trackbar.vbprojAssemblyReference.cache
+U:\.NET\Lesson8OneVariable\Trackbar\obj\Debug\Trackbar.Form1.resources
+U:\.NET\Lesson8OneVariable\Trackbar\obj\Debug\Trackbar.Resources.resources
+U:\.NET\Lesson8OneVariable\Trackbar\obj\Debug\Trackbar.vbproj.GenerateResource.cache
+U:\.NET\Lesson8OneVariable\Trackbar\obj\Debug\Trackbar.vbproj.CoreCompileInputs.cache
+U:\.NET\Lesson8OneVariable\Trackbar\obj\Debug\Trackbar.exe
+U:\.NET\Lesson8OneVariable\Trackbar\obj\Debug\Trackbar.xml
+U:\.NET\Lesson8OneVariable\Trackbar\obj\Debug\Trackbar.pdb
