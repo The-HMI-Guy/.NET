@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4B16B3E0-D754-45C3-8D99-E1856E1B02ED}</ProjectGuid>
+    <ProjectGuid>{1CCBE687-26D9-4CEA-A886-152E3F1EC30C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>Form1.My.MyApplication</StartupObject>
     <RootNamespace>Form1</RootNamespace>
@@ -73,13 +73,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Compile Include="Form1.vb" />
-=======
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
->>>>>>> Lesson23
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
