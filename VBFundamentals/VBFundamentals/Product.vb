@@ -17,6 +17,7 @@
             _Name = value
         End Set
     End Property
+    Public Property ProductID As Integer
     Public Property ProductNumber As String
     Public Property SellStartDate As DateTime
     Public Property SellEndDate As DateTime
