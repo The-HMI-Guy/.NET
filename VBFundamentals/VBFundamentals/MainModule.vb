@@ -16,10 +16,30 @@ Module MainModule
 
         'Console.WriteLine(products(0))
         'Console.WriteLine(products(1))
-        'Console.WriteLine(products(2))
+        'Console.WriteLine(products(2)) 
 
         'Console.WriteLine(products.Length)
         'Array Example - End
+
+        'ArrayList Example - Start
+        'Dim products As New ArrayList From {
+        '    "10 Speed Bike",
+        '    "Bike Helmet",
+        '    "Inner Tube",
+        '    1,
+        '    3.35D,
+        '    New Product With {.ProductNumber = "1"}
+        '    }
+        'Console.WriteLine(products(0))
+        'Console.WriteLine(products(1))
+        'Console.WriteLine(products(2))
+
+        'Console.WriteLine(products.Count)
+
+        'Dim products As New ArrayList From {
+        '    New Product() With {.ProductNumber = "2", .Name = "Bob"}}
+        'Console.WriteLine(DirectCast(products(0), Product).Name)
+        'ArrayList Example - End
         Console.ReadKey()
 
     End Sub
