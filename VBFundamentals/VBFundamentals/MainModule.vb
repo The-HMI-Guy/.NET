@@ -1,24 +1,26 @@
 Imports System
 
 Module MainModule
-    'Dim Name As String = "Mountain Bike"
     Sub Main()
+        'Array Example - Start
+        'Dim products(3) As String
 
-        'Dim isActive As Boolean = ClassConstants.DEFAULT_ACTIVE
+        'products(0) = "10 Speed Bike"
+        'products(1) = "Bike Helmet"
+        'products(2) = "Inner Tube"
 
-        Dim prod As New Product
-        Dim sellDate As DateTime
+        'OR initialize this way
 
-        prod.SellStartDate = #5/1/2019#
+        'Dim products As String() =
+        '{"10 Speed Bike", "Bike Helmet", "Inner Tube"}
 
-        sellDate = prod.CalculateSellEndDate(30)
+        'Console.WriteLine(products(0))
+        'Console.WriteLine(products(1))
+        'Console.WriteLine(products(2))
 
-
-        Console.WriteLine(sellDate)
-
+        'Console.WriteLine(products.Length)
+        'Array Example - End
         Console.ReadKey()
-
-
 
     End Sub
 End Module
