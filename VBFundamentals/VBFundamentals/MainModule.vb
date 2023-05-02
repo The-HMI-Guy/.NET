@@ -41,15 +41,24 @@ Module MainModule
         'Console.WriteLine(DirectCast(products(0), Product).Name)
         '***ArrayList Example - End***
         '***Dictionary Example - Start***
-        Dim products = LoadProducts()
+        'Dim products = LoadProducts()
 
         'Passing in the key and NOT the index
-        Console.WriteLine(products(1).Name)
-        Console.WriteLine(products(2).Name)
-        Console.WriteLine(products(3).Name)
+        'Console.WriteLine(products(1).Name)
+        'Console.WriteLine(products(2).Name)
+        'Console.WriteLine(products(3).Name)
 
-        'See 
-        Console.WriteLine(products(1).Name)
+        'See if a specific key exists in the dictionary
+        'Console.WriteLine(products.ContainsKey(1))
+
+        'Display the total number of items in the dictionary
+        'Console.WriteLine(products.Count)
+
+        'Remove an item by the key
+        'products.Remove(1)
+
+        'Remove all items
+        'products.Clear()
         '***Dictionary Example - End***
         Console.ReadKey()
 
