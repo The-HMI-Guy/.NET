@@ -60,6 +60,28 @@ Module MainModule
         'Remove all items
         'products.Clear()
         '***Dictionary Example - End***
+
+        '***LINQ Example - Start***
+        'Dim products = LoadProducts()
+
+        'Display the sum of all list prices - "c" = currency, which ToString formats as
+        'Console.WriteLine(
+        '    products.Sum(Function(p)
+        '                     Return p.Value.ListPrice
+        '                 End Function).ToString("c"))
+
+        'Display the average of all list prices (short-hand) - "c" = currency, which ToString formats as
+        'Console.WriteLine(
+        '    products.Average(Function(p) p.Value.ListPrice).ToString("c"))
+
+        'Display the minimum of all list prices - "c" = currency, which ToString formats as
+        'Console.WriteLine(
+        '    products.Min(Function(p) p.Value.ListPrice).ToString("c"))
+
+        'Display the maxiumim of all list prices - "c" = currency, which ToString formats as
+        'Console.WriteLine(
+        '    products.Max(Function(p) p.Value.ListPrice).ToString("c"))
+        '***LINQ Example - End***
         Console.ReadKey()
 
     End Sub
