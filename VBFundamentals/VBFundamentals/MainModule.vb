@@ -40,7 +40,17 @@ Module MainModule
         '    New Product() With {.ProductNumber = "2", .Name = "Bob"}}
         'Console.WriteLine(DirectCast(products(0), Product).Name)
         '***ArrayList Example - End***
+        '***Dictionary Example - Start***
+        Dim products = LoadProducts()
 
+        'Passing in the key and NOT the index
+        Console.WriteLine(products(1).Name)
+        Console.WriteLine(products(2).Name)
+        Console.WriteLine(products(3).Name)
+
+        'See 
+        Console.WriteLine(products(1).Name)
+        '***Dictionary Example - End***
         Console.ReadKey()
 
     End Sub
