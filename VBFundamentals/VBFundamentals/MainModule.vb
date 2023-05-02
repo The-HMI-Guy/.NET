@@ -82,23 +82,73 @@ Module MainModule
         'Console.WriteLine(
         '    products.Max(Function(p) p.Value.ListPrice).ToString("c"))
         '***LINQ Example - End***
+
+        '***Generic List(Of T) Example - Start***
+        Dim products = LoadProducts()
+
+        'List(of T) class is a collection. It is zero-based. Idex number ref below
+        Console.WriteLine(products(0).Name)
+
+        'See if a specific key exists in the list
+        Console.WriteLine(
+            products.Exists(Function(p) p.ProductID = 704))
+
+        'Display the total number of items in the list
+        Console.WriteLine(products.Count)
+
+        'Remove an item by index
+        products.RemoveAt(1)
+        Console.WriteLine(products.Count)
+
+        'Remove an item by a product object
+        products.Remove(products.Find(Function(p) p.ProductID = 704))
+        Console.WriteLine(products.Count)
+
+        'Remove all items
+        products.Clear()
+
+        'LINQ Expressions
+
+        'Display the sum of all the list prices
+        Console.WriteLine(
+            products.Sum(Function(p) p.ListPrice).ToString("c"))
+
+        'Display the average of all the list prices
+        Console.WriteLine(
+            products.Average(Function(p) p.ListPrice).ToString("c"))
+
+        'Display the minimum of all the list prices
+        Console.WriteLine(
+            products.Min(Function(p) p.ListPrice).ToString("c"))
+
+        'Display the maximum of all the list prices
+        Console.WriteLine(
+            products.Max(Function(p) p.ListPrice).ToString("c"))
+
+        Console.WriteLine(products.Count)
+        '***Generic List(Of T) Example - End***
         Console.ReadKey()
 
     End Sub
-    '***Dictionary Example - Start***
-    Function LoadProducts() As Dictionary(Of Integer, Product)
-        Dim products As New Dictionary(Of Integer, Product)
-        Dim prod As Product
+    '***Dictionary/LINQ Example - Start***
+    'Function LoadProducts() As Dictionary(Of Integer, Product)
+    '    Dim products As New Dictionary(Of Integer, Product)
+    '    Dim prod As Product
 
-        prod = New Product() With {.ProductID = 1, .Name = "Bob"}
-        products.Add(key:=prod.ProductID, value:=prod)
+    '    prod = New Product() With {.ProductID = 1, .Name = "Bob"}
+    '    products.Add(key:=prod.ProductID, value:=prod)
 
-        prod = New Product() With {.ProductID = 2, .Name = "Alice"}
-        products.Add(key:=prod.ProductID, value:=prod)
+    '    prod = New Product() With {.ProductID = 2, .Name = "Alice"}
+    '    products.Add(key:=prod.ProductID, value:=prod)
 
-        prod = New Product() With {.ProductID = 3, .Name = "Fred"}
-        products.Add(key:=prod.ProductID, value:=prod)
+    '    prod = New Product() With {.ProductID = 3, .Name = "Fred"}
+    '    products.Add(key:=prod.ProductID, value:=prod)
 
+    '    Return products
+    'End Function
+    Function LoadProducts() As List(Of Product)
+        Dim products As New List(Of Product) From {
+            New Product() With {.ProductID = 680, .Name = "Bob", .ListPrice = 745}}
         Return products
     End Function
     '***Dictionary Example - End***
