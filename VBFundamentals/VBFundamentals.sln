@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBFundamentals", "VBFundamentals\VBFundamentals.vbproj", "{DD14BE00-43B9-4287-B2A6-2419E7447EED}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VBFundamentals", "VBFundamentals\VBFundamentals.vbproj", "{DD14BE00-43B9-4287-B2A6-2419E7447EED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
