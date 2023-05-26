@@ -38,4 +38,7 @@
         SellEndDate = SellStartDate.AddDays(days)
         Return SellEndDate
     End Function
+    Public Overrides Function ToString() As String
+        Return Name + "(" + ProductNumber + ")"
+    End Function
 End Class

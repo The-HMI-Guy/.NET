@@ -166,5 +166,11 @@
       <Name>Common.Library</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="XML\Products.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="XML\Customers.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

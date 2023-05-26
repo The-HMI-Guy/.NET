@@ -84,49 +84,82 @@ Module MainModule
         '***LINQ Example - End***
 
         '***Generic List(Of T) Example - Start***
-        Dim products = LoadProducts()
+        'Dim products = LoadProducts()
 
         'List(of T) class is a collection. It is zero-based. Idex number ref below
-        Console.WriteLine(products(0).Name)
+        'Console.WriteLine(products(0).Name)
 
         'See if a specific key exists in the list
-        Console.WriteLine(
-            products.Exists(Function(p) p.ProductID = 704))
+        'Console.WriteLine(
+        'products.Exists(Function(p) p.ProductID = 704))
 
         'Display the total number of items in the list
-        Console.WriteLine(products.Count)
+        'Console.WriteLine(products.Count)
 
         'Remove an item by index
-        products.RemoveAt(1)
-        Console.WriteLine(products.Count)
+        'products.RemoveAt(1)
+        'Console.WriteLine(products.Count)
 
         'Remove an item by a product object
-        products.Remove(products.Find(Function(p) p.ProductID = 704))
-        Console.WriteLine(products.Count)
+        'products.Remove(products.Find(Function(p) p.ProductID = 704))
+        'Console.WriteLine(products.Count)
 
         'Remove all items
-        products.Clear()
+        'products.Clear()
 
         'LINQ Expressions
 
         'Display the sum of all the list prices
-        Console.WriteLine(
-            products.Sum(Function(p) p.ListPrice).ToString("c"))
+        'Console.WriteLine(
+        'products.Sum(Function(p) p.ListPrice).ToString("c"))
 
         'Display the average of all the list prices
-        Console.WriteLine(
-            products.Average(Function(p) p.ListPrice).ToString("c"))
+        'Console.WriteLine(
+        'products.Average(Function(p) p.ListPrice).ToString("c"))
 
         'Display the minimum of all the list prices
-        Console.WriteLine(
-            products.Min(Function(p) p.ListPrice).ToString("c"))
+        'Console.WriteLine(
+        'products.Min(Function(p) p.ListPrice).ToString("c"))
 
         'Display the maximum of all the list prices
-        Console.WriteLine(
-            products.Max(Function(p) p.ListPrice).ToString("c"))
+        'Console.WriteLine(
+        ' products.Max(Function(p) p.ListPrice).ToString("c"))
 
-        Console.WriteLine(products.Count)
+        'Console.WriteLine(products.Count)
         '***Generic List(Of T) Example - End***
+
+        '***Do While, Loop While, Exit Example - Start***
+        Dim products = LoadProducts()
+        Dim index As Integer = 0
+        Dim sum As Decimal = 0
+
+        'Do While Example
+        'Do While index < (products.Count - 1) 'Use a Do While statement when you want to test whether or not to enter the loop at least one time. 
+        'Console.WriteLine(products(index).ToString())
+        'sum += products(index).ListPrice
+
+        'index += 1
+        'Loop
+        'Console.WriteLine("Sum: " & sum.ToString("c"))
+
+        'Do Loop While Example
+        'Do 'Use a Loop While statement when you want to enter the loop at least one time. Condition is checked at the end.
+        'Console.WriteLine(products(index).ToString())
+        'sum += products(index).ListPrice
+
+        'index += 1
+        'Loop While index < (products.Count)
+
+        'Exit Do Example
+        'Do
+        'Console.WriteLine(products(index).ToString())
+        'sum += products(index).ListPrice
+
+        'Exit Do
+        'index += 1
+        'Loop While index < (products.Count)
+        'Console.WriteLine("Sum: " & sum.ToString("c"))
+        '***Do While, Loop While, Exit Example - End***
         Console.ReadKey()
 
     End Sub
