@@ -187,6 +187,33 @@ Module MainModule
         'Loop Until index > (products.Count - 1)
         'Console.WriteLine("Min: " & min.ToString("c"))
         '***Do Until, Loop Until, Example - End***
+
+        '***For Next/For Each Example - Start***
+        'Dim products = LoadProducts()
+        'We can eliminate a line of code using a For Loop because we no
+        'longer have to increment the index variable.
+        'For index As Integer = 0 To (products.Count - 1)
+        '    Console.WriteLine(products(index).ToString())
+        'Next
+
+        'The step statement allows you to specify by how much the index is
+        'incremented or decremented each time through the loop
+        'For index As Integer = (products.Count - 1) To 0 Step -1
+        '    Console.WriteLine(products(index).ToString())
+        'Next
+
+        'You will probably use a For Each statement much more than a simple For Loop.
+        'The For Each statement automatically increments an internal index number each
+        'time the Next statement is encountered. 
+        'For Each prod As Product In products
+        '    Console.WriteLine(prod.ToString())
+        'Next
+
+        'For Each prod As Product In products
+        '    Console.WriteLine(prod.ToString())
+        '    Exit For
+        'Next
+        '***For Next/For Each Example - End***
         Console.ReadKey()
 
     End Sub
