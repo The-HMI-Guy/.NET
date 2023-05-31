@@ -129,9 +129,9 @@ Module MainModule
         '***Generic List(Of T) Example - End***
 
         '***Do While, Loop While, Exit Example - Start***
-        Dim products = LoadProducts()
-        Dim index As Integer = 0
-        Dim sum As Decimal = 0
+        'Dim products = LoadProducts()
+        'Dim index As Integer = 0
+        'Dim sum As Decimal = 0
 
         'Do While Example
         'Do While index < (products.Count - 1) 'Use a Do While statement when you want to test whether or not to enter the loop at least one time. 
@@ -160,6 +160,33 @@ Module MainModule
         'Loop While index < (products.Count)
         'Console.WriteLine("Sum: " & sum.ToString("c"))
         '***Do While, Loop While, Exit Example - End***
+
+        '***Do Until, Loop Until, Example - Start***
+        'Dim products = LoadProducts()
+        'Dim index As Integer = 0
+        'Dim min As Decimal = Decimal.MaxValue
+        'Dim max As Decimal = Decimal.MinValue
+
+        'Do Until index > (products.Count - 1)
+        '    Console.WriteLine(products(index).ToString())
+
+        '    min = Convert.ToDecimal(
+        '        IIf(products(index).ListPrice < min, 'IIF() is a short-hand for an If...Else statement
+        '            products(index).ListPrice,
+        '            min))
+        '    index += 1
+        'Loop
+        'Do
+        '    Console.WriteLine(products(index).ToString())
+
+        '    max = Convert.ToDecimal(
+        '        IIf(products(index).ListPrice > max, 'IIF() is a short-hand for an If...Else statement
+        '            products(index).ListPrice,
+        '            max))
+        '    index += 1
+        'Loop Until index > (products.Count - 1)
+        'Console.WriteLine("Min: " & min.ToString("c"))
+        '***Do Until, Loop Until, Example - End***
         Console.ReadKey()
 
     End Sub
